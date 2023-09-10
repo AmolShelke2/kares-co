@@ -56,15 +56,16 @@ export const Navbar = () => {
         <header className="mb-4">
           <Image
             src={"/assets/image-1.png"}
-            height={100}
-            width={100}
+            height={44}
+            width={140}
             alt="header-logo"
           />
         </header>
         <nav
           className={`${
             !navbarActive ? "hidden" : "flex"
-          } flex-col gap-10 items-start w-full bg-gray-100 px-4 py-2 rounded-xl shadow-md`}>
+          } flex-col gap-10 items-start w-full bg-gray-100 px-4 py-2 
+          rounded-xl shadow-md z-1 fixed top-16 left-0`}>
           <ul className="flex flex-col gap-8">
             <li className="font-normal text-sm leading-5 cursor-pointer">
               Home
