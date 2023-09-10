@@ -65,7 +65,7 @@ export const Navbar = () => {
           className={`${
             !navbarActive ? "hidden" : "flex"
           } flex-col gap-10 items-start w-full bg-gray-100 px-4 py-2 
-          rounded-xl shadow-md z-1 fixed top-16 left-0`}>
+          rounded-xl shadow-md z-1 fixed top-20 left-0`}>
           <ul className="flex flex-col gap-8">
             <li className="font-normal text-sm leading-5 cursor-pointer">
               Home

@@ -3,7 +3,9 @@ import React from "react";
 
 export const HeroSection = () => {
   return (
-    <div className="w-full flex flex-col lg:flex-row justify-start lg:justify-between gap-8 lg:h-[693px] px-4">
+    <div
+      className="w-full flex flex-col lg:flex-row 
+    justify-start lg:justify-between gap-8 lg:h-[693px] px-4">
       {/* Heading, text, and button content */}
       <div className="w-full lg:w-[496px] my-auto">
         <h2 className="text-[40px] lg:text-[56px] lg:leading-[56px] leading-[45px] text-black font-normal lg:h-[168px] mb-4 lg:mb-2">
@@ -20,7 +22,8 @@ export const HeroSection = () => {
       </div>
       {/* Image container */}
       <div
-        className="w-full lg:w-[559px] h-[558px] bg-no-repeat bg-center flex lg:justify-center lg:items-center relative"
+        className="w-full lg:w-[559px] h-[558px] bg-no-repeat bg-center 
+        flex lg:justify-center lg:items-center relative"
         style={{ backgroundImage: "url(/assets/image-3.png)" }}>
         <div className="lg:h-[516px]">
           <Image
@@ -31,7 +34,9 @@ export const HeroSection = () => {
           />
         </div>
 
-        <div className="bg-[#E5E7EB]  shadow-md absolute bottom-48 right-20 rounded-[100px] h-[58px] w-[213px] flex justify-center">
+        <div
+          className="hidden  bg-[#E5E7EB]  shadow-md absolute bottom-48 right-20 
+        rounded-[100px] h-[58px] w-[213px] lg:flex justify-center">
           <p className="text-[#4B5563] font-medium text-[16px] flex items-center">
             <Image
               src={"/assets/group-4.png"}
