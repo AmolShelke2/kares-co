@@ -1,6 +1,5 @@
 import Image from "next/image";
 import React from "react";
-import { Slider } from "./Slider";
 
 export const HeroSection = () => {
   return (
@@ -50,9 +49,6 @@ export const HeroSection = () => {
           </p>
         </div>
       </div>
-
-      {/* carousel */}
-      <Slider />
     </div>
   );
 };
